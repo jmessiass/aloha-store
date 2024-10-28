@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 # Comando para iniciar a aplicação Flask
-CMD ["python", "app.py"]
+CMD ["python", "alohastore.py"]

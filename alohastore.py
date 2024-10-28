@@ -61,4 +61,4 @@ def robots_txt():
     return send_from_directory(os.path.join(app.root_path), 'robots.txt')
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=8081)
+    app.run(debug=False, host='0.0.0.0', port=8080)
