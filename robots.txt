@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /painel-admin/
+Allow: /
+
+FLAG: ${AlohaHackingClub-Robots}
